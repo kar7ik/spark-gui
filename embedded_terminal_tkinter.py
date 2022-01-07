@@ -3,7 +3,7 @@ from subprocess import *
 
 
 def func():
-    proc = Popen("sudo /home/kar7ik/Documents/Apps/spark/person.py",
+    proc = Popen("sudo /home/to/Documents/Apps/spark/spark_job.py",
                  stdout=PIPE, shell=True)
     proc = proc.communicate()
     output.insert(END, proc)

@@ -5,9 +5,10 @@ from subprocess import *
 from tkinter.constants import END
 
 
-SPARK_SUBMIT_PATH = 'sh /home/kar7ik/Documents/AppsMediators/spark-gui/spark-submit/spark-submit.sh '
+# path to spark submit shell
+SPARK_SUBMIT_PATH = 'sh /home/to/Documents/AppsMediators/spark-gui/spark-submit/spark-submit.sh '
 
-# /home/kar7ik/Documents/Apps/spark/person.py
+# /home/to/Documents/Apps/spark/spark_job.py
 
 
 def submit():
